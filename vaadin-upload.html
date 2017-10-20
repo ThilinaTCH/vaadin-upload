@@ -61,6 +61,16 @@ This program is available under Apache License Version 2.0, available at https:/
       [part="drop-label-icon"]::before {
         content: "\e905";
       }
+      
+      #file-list {
+        position: relative;
+      }
+
+      vaadin-upload-file {
+        position: absolute;
+        top: 0;
+        width: 100%;
+      }
     </style>
     <div part="primary-buttons">
       <div id="addFiles" on-click="_onAddFilesClick">
